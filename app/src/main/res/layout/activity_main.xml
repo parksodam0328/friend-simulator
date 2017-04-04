@@ -15,4 +15,46 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="월요일 아침"
+        tools:layout_editor_absoluteY="30dp"
+        android:layout_marginLeft="-22dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안좋은 일 생겼을때"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="운영체제 들을때"
+        tools:layout_editor_absoluteX="-156dp"
+        tools:layout_editor_absoluteY="-90dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자바 수행 하루 전"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="친구 만날때"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+
 </android.support.constraint.ConstraintLayout>
