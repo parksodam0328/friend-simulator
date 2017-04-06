@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kr.hs.mirim.parksodam.seohwiwon.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="40sp"
+        android:text="서휘원 시뮬레이터"
+        android:gravity="center"
+         />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:text="월요일 아침"
-        tools:layout_editor_absoluteY="30dp"
-        android:layout_marginLeft="-22dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:text="안좋은 일 생겼을때"
-        tools:layout_editor_absoluteX="-8dp"
-        tools:layout_editor_absoluteY="111dp" />
+         />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="운영체제 들을때"
-        tools:layout_editor_absoluteX="-156dp"
-        tools:layout_editor_absoluteY="-90dp" />
+        android:layout_margin="3dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="자바 수행 하루 전"
-        tools:layout_editor_absoluteX="-27dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:layout_margin="3dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="친구 만날때"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="368dp" />
+        android:layout_margin="3dp" />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
