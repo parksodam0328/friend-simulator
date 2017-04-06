@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="안좋은 일 생겼을때"
          />
 
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="운영체제 들을때"
+        android:onClick="onClick"
         android:layout_margin="3dp" />
 
     <Button
@@ -45,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="자바 수행 하루 전"
+        android:onClick="onClick"
         android:layout_margin="3dp" />
 
     <Button
@@ -52,6 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="친구 만날때"
+
         android:layout_margin="3dp" />
 
 
