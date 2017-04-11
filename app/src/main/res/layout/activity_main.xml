@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="onClick"
     tools:context="kr.hs.mirim.parksodam.seohwiwon.MainActivity">
 
     <TextView
@@ -13,6 +14,9 @@
         android:layout_height="wrap_content"
         android:text="서휘원 시뮬레이터"
         android:gravity="center"
+        android:textSize="40sp"
+        android:onClick="onClick"
+
          />
     <ImageView
         android:id="@+id/friend_visual"
