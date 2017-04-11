@@ -24,26 +24,30 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG,"onCreate 메소드 호출~");
         Log.d(TAG,"클릭된 뷰 id : "+view.getId());
-        switch (view.getId()) {
-
+        switch (view.getId()){
             case R.id.button1:
                 Log.d(TAG,"버튼 1 클릭");
+                mImageViewFriendVisual.setImageResource(R.drawable.hwiwon1);
                 Toast.makeText(this, "아 집가고 싶어", Toast.LENGTH_SHORT).show();
                 break; //.show()를 해야 Toast가 실행된다.
             case R.id.button2:
                 Log.d(TAG,"버튼 2 클릭");
+                mImageViewFriendVisual.setImageResource(R.drawable.hwiwon2);
                 Toast.makeText(this, "하 망했다", Toast.LENGTH_SHORT).show();
                 break; //.show()를 해야 Toast가 실행된다.
             case R.id.button3:
                 Log.d(TAG,"버튼 3 클릭");
+                mImageViewFriendVisual.setImageResource(R.drawable.hwiwon3);
                 Toast.makeText(this, "졸려", Toast.LENGTH_SHORT).show();
                 break; //.show()를 해야 Toast가 실행된다.
             case R.id.button4:
                 Log.d(TAG,"버튼 4 클릭");
+                mImageViewFriendVisual.setImageResource(R.drawable.hwiwon4);
                 Toast.makeText(this, "나 자바 좀 알려줘라", Toast.LENGTH_SHORT).show();
                 break; //.show()를 해야 Toast가 실행된다.
             case R.id.button5:
                 Log.d(TAG,"버튼 5 클릭");
+                mImageViewFriendVisual.setImageResource(R.drawable.hwiwon5);
                 Toast.makeText(this, "하잇", Toast.LENGTH_SHORT).show();
                 break; //.show()를 해야 Toast가 실행된다.
             default:
